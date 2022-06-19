@@ -1,0 +1,2 @@
+unique subsequences of a collection matching a given condition -> backtracking on sorted collection
+eg: CombinationSum2

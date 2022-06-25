@@ -1,0 +1,10 @@
+1. Longest increasing subsequence
+(https://www.youtube.com/watch?v=mouCn3CFpgg)
+
+2. Previous greater element
+(https://www.geeksforgeeks.org/previous-greater-element/)
+related question: largest histogram
+(https://workat.tech/problem-solving/practice/largest-rectangle-histogram)
+
+3. Next greater element
+(https://www.geeksforgeeks.org/next-greater-element/)

@@ -1,2 +1,10 @@
 unique subsequences of a collection matching a given condition -> backtracking on sorted collection
 eg: CombinationSum2
+
+to avoid using aux space for storing visited, modify the original collection if it's not resued
+
+ordering and joining
+Collectors.joining(", ")
+Comparator.naturalOrder()
+Collections.reverseOrder()
+Comparator.comparing(Class::method)

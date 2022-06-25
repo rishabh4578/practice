@@ -3,7 +3,8 @@ package org.example.DSAOneCourse;
 public class StockBuySell {
 
     public static void main(String[] args) {
-        int[] prices = {100, 180, 260, 310, 40, 535, 695};
+//        int[] prices = {100, 180, 260, 310, 40, 535, 695};
+        int[] prices = {1,2,3,4,2,3,4,5,6,7,8};
         int maxProfitInSingleBuySell = getMaxProfitInSingleBuySell(prices);
         int maxProfitInMultipleBuySell = getMaxProfitInMultipleBuySell(prices);
         System.out.println("maxProfitInSingleBuySell: " + maxProfitInSingleBuySell + ", maxProfitInMultipleBuySell: " + maxProfitInMultipleBuySell);

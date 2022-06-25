@@ -9,7 +9,7 @@ public class MinDistanceBetweenBinaryTreeNodes {
         // Your code here
         if (root == null) return -1;
         if (a == b) return 0;
-        Node lca = lca(root, a, b);
+        Node lca = lca(root, a, b); //find the lowest common ancestor
         dist(lca, a, b, 0);
         return (lca.data == a || lca.data == b) ? Math.abs(levelA - levelB) : levelA + levelB;
     }
